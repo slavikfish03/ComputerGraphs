@@ -131,3 +131,10 @@ HRESULT Renderer::setupBackBuffer() {
 
     return result;
 }
+
+void Renderer::releaseMemory() {
+    SAFE_RELEASE(m_pBackBufferRTV);
+    SAFE_RELEASE(m_pSwapChain);
+    SAFE_RELEASE(m_pDeviceContext);
+    SAFE_RELEASE(m_pDevice);
+}

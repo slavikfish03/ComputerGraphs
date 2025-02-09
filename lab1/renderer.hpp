@@ -8,6 +8,7 @@ public:
     bool initDevice(HWND hWnd);
     bool render();
     bool resize(UINT width, UINT height);
+    void releaseMemory();
 
 private:
     HRESULT setupBackBuffer();
