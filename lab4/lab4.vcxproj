@@ -152,13 +152,13 @@
   <ItemGroup>
     <Image Include="lab4.ico" />
     <Image Include="small.ico" />
-    <Image Include="witcher.dds" />
-    <Image Include="x_minus.dds" />
-    <Image Include="x_plus.dds" />
-    <Image Include="y_minus.dds" />
-    <Image Include="y_plus.dds" />
-    <Image Include="z_minus.dds" />
-    <Image Include="z_plus.dds" />
+    <CopyFileToFolders Include="src\witcher.dds" />
+    <CopyFileToFolders Include="src\x_minus.dds" />
+    <CopyFileToFolders Include="src\x_plus.dds" />
+    <CopyFileToFolders Include="src\y_minus.dds" />
+    <CopyFileToFolders Include="src\y_plus.dds" />
+    <CopyFileToFolders Include="src\z_minus.dds" />
+    <CopyFileToFolders Include="src\z_plus.dds" />
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="Skybox_PS.hlsl">

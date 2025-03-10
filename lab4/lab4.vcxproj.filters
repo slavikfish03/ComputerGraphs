@@ -63,27 +63,6 @@
     <Image Include="lab4.ico">
       <Filter>Файлы ресурсов</Filter>
     </Image>
-    <Image Include="witcher.dds">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="x_minus.dds">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="x_plus.dds">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="y_minus.dds">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="y_plus.dds">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="z_minus.dds">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
-    <Image Include="z_plus.dds">
-      <Filter>Файлы ресурсов</Filter>
-    </Image>
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="Skybox_PS.hlsl">
@@ -96,6 +75,27 @@
       <Filter>Файлы ресурсов</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="Texture_VS.hlsl">
+      <Filter>Файлы ресурсов</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="src\witcher.dds">
+      <Filter>Файлы ресурсов</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="src\x_minus.dds">
+      <Filter>Файлы ресурсов</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="src\x_plus.dds">
+      <Filter>Файлы ресурсов</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="src\y_minus.dds">
+      <Filter>Файлы ресурсов</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="src\y_plus.dds">
+      <Filter>Файлы ресурсов</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="src\z_minus.dds">
+      <Filter>Файлы ресурсов</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="src\z_plus.dds">
       <Filter>Файлы ресурсов</Filter>
     </CopyFileToFolders>
   </ItemGroup>
