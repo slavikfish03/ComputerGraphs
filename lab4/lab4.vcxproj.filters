@@ -77,25 +77,25 @@
     <CopyFileToFolders Include="Texture_VS.hlsl">
       <Filter>Файлы ресурсов</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="src\witcher.dds">
+    <CopyFileToFolders Include="witcher.dds">
       <Filter>Файлы ресурсов</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="src\x_minus.dds">
+    <CopyFileToFolders Include="x_minus.dds">
       <Filter>Файлы ресурсов</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="src\x_plus.dds">
+    <CopyFileToFolders Include="x_plus.dds">
       <Filter>Файлы ресурсов</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="src\y_minus.dds">
+    <CopyFileToFolders Include="y_minus.dds">
       <Filter>Файлы ресурсов</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="src\y_plus.dds">
+    <CopyFileToFolders Include="y_plus.dds">
       <Filter>Файлы ресурсов</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="src\z_minus.dds">
+    <CopyFileToFolders Include="z_minus.dds">
       <Filter>Файлы ресурсов</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="src\z_plus.dds">
+    <CopyFileToFolders Include="z_plus.dds">
       <Filter>Файлы ресурсов</Filter>
     </CopyFileToFolders>
   </ItemGroup>

@@ -132,7 +132,7 @@ HRESULT Renderer::InitTextures() {
 	TextureDesc textureDesc;
 	HRESULT result;
 	{
-		const std::wstring TextureName = L"src/witcher.dds";
+		const std::wstring TextureName = L"witcher.dds";
 		bool ddsRes = LoadDDS(TextureName.c_str(), textureDesc);
 		D3D11_TEXTURE2D_DESC desc = {};
 		desc.Format = textureDesc.fmt;
@@ -202,9 +202,9 @@ HRESULT Renderer::InitTextures() {
 	DXGI_FORMAT textureFmt;
 	{
 		const std::wstring TextureNames[6] = {
-			L"src/y_plus.dds", L"src/y_minus.dds",
-			L"src/z_plus.dds", L"src/z_minus.dds",
-			L"src/x_minus.dds", L"src/x_plus.dds"
+			L"y_plus.dds", L"y_minus.dds",
+			L"z_plus.dds", L"z_minus.dds",
+			L"x_minus.dds", L"x_plus.dds"
 		};
 		TextureDesc texDescs[6];
 		bool ddsRes = true;
